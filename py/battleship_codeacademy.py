@@ -1,3 +1,5 @@
+#Small Python project from codeacademy.com
+
 from random import randint
 
 board = []
