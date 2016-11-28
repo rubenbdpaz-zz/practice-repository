@@ -44,9 +44,9 @@ for turn in range(4):
             board[guess_row][guess_col] = "X"
             if turn == 3:
                 print ("Game Over")
+                break
         # Print (turn + 1) here!
         print_board(board)
 
 board[ship_row][ship_col] = "B"
-print ("="*10)
 print_board(board)
